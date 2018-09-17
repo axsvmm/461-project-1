@@ -1,0 +1,11 @@
+
+
+.bg-header {
+  background: url(images/larry-1.jpg) center center no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-quote {
+  background: url(images/larry-andy.jpg) center center no-repeat;
+  background-attachment: fixed;
+}
