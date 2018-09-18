@@ -28,7 +28,9 @@
 .bg-header-1 {
   background: url(images/larry-1.jpg) center center no-repeat;
   background-attachment: fixed;
-  background-size:contain;
+
+
+
 }
 
 .bg-quote-1 {
@@ -49,3 +51,19 @@
 .bg-quote-2 {
   background: url(images/larry-1.jpg) center center no-repeat;
   background-attachment: fixed;
+
+
+/*----------------- part 3 -----------------*/
+
+.bg-header-3 {
+  background: url(images/pete-2.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+
+
+
+
+
+
