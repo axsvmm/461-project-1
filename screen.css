@@ -7,12 +7,45 @@
  * Update the background images to suit
  * your project.
  */
+
+ /*---------------  index  -----------------*/
 .bg-header {
   background: url(images/larry-andy.jpg) center center no-repeat;
   background-attachment: fixed;
+    background-size:cover;
 }
 
 .bg-quote {
   background: url(images/larry-1.jpg) center center no-repeat;
   background-attachment: fixed;
 }
+
+
+
+
+
+/*----------------- part 1 -----------------*/
+.bg-header-1 {
+  background: url(images/larry-1.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size:contain;
+}
+
+.bg-quote-1 {
+  background: url(images/larry-andy.jpg) center center no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+
+/*----------------- part 2 -----------------*/
+.bg-header-2 {
+  background: url(images/vera-header-2.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+.bg-quote-2 {
+  background: url(images/larry-1.jpg) center center no-repeat;
+  background-attachment: fixed;
