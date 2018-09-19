@@ -15,20 +15,12 @@
     background-size:cover;
 }
 
-.bg-quote {
-  background: url(images/larry-1.jpg) center center no-repeat;
-  background-attachment: fixed;
-}
-
-
-
-
 
 /*----------------- part 1 -----------------*/
-.bg-header-1 {
-  background: url(images/larry-1.jpg) center center no-repeat;
+/*.bg-header-1 {
+  background: url(images/larry-4.jpg) center center no-repeat;
   background-attachment: fixed;
-
+  background-size:cover;*/
 
 
 }
@@ -42,15 +34,38 @@
 
 
 /*----------------- part 2 -----------------*/
-.bg-header-2 {
+/*.bg-header-2 {
   background: url(images/vera-header-2.jpg) center center no-repeat;
   background-attachment: fixed;
   background-size:cover;
-}
+}*/
 
 .bg-quote-2 {
   background: url(images/larry-1.jpg) center center no-repeat;
   background-attachment: fixed;
+
+
+
+
+/*----------------- part 3 -----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
