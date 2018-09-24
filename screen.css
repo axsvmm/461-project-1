@@ -16,29 +16,31 @@
 }
 
 
+
 /*----------------- part 1 -----------------*/
 /*.bg-header-1 {
   background: url(images/larry-4.jpg) center center no-repeat;
   background-attachment: fixed;
-  background-size:cover;*/
+  background-size:cover;
+  }
+  */
+
+/*.bg-quote-1 {
+  background: url() center center no-repeat;
+  background-attachment: fixed
 
 
 }
-
-.bg-quote-1 {
-  background: url(images/larry-andy.jpg) center center no-repeat;
-  background-attachment: fixed;
-}
-
+*/
 
 
 
 /*----------------- part 2 -----------------*/
-/*.bg-header-2 {
+.bg-header-2 {
   background: url(images/vera-header-2.jpg) center center no-repeat;
   background-attachment: fixed;
   background-size:cover;
-}*/
+}
 
 .bg-quote-2 {
   background: url(images/larry-1.jpg) center center no-repeat;
@@ -48,6 +50,16 @@
 
 
 /*----------------- part 3 -----------------*/
+.bg-header-3 {
+  background: url(images/vera-header-2.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+.bg-quote-3 {
+  background: url(images/larry-1.jpg) center center no-repeat;
+  background-attachment: fixed;
+}
 
 
 /*------------------ part 4 ------------------*/
@@ -56,7 +68,7 @@
   background: #000;
 }
 
-@media only screen and (min-width : 768px) {
+/*@media only screen and (min-width : 768px) {
   .video-wrapper {
     height: 0;
     padding-bottom: 56.25%;
@@ -75,16 +87,50 @@
   .video-title {
     background-color: rgba(0,0,0, .7);
     position: absolute;
-      top: 50%;
-      left: 50%;
+      top: 32px;
+      left: 30%;
     transform: translateX(-50%);
     z-index: 99;
   }
 }
+*/
 
 
+footer {
+  text-align:center;
+  padding-bottom:2%;
 
+}
 
+#footerSocial {
+  margin:1% 0;
+}
+.fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hoover {
+  opacity: 0.7%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+  background: #00f200;
+  color: white;
+}
 
 
 
