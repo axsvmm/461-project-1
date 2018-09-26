@@ -18,13 +18,13 @@
 .text_header{
   font-family: Oswald;
   font-size:3.5em;
-  opacity: .80;
+  /*opacity: .80;*/
   color: #000 ;
   text-shadow: 1.5px 1.5px #aaa6a6;
   position: relative;
   text-align: left;
   line-height: 1.5;
-  padding: 10px;
+  padding: 6px;
   margin-right: 12px;
   margin-left: 15px;
   margin-top: 2em;
@@ -54,7 +54,7 @@
     font-size:5em;
     position: relative;
     text-align: justify-center;
-     background-color: white;
+     /*background-color: white;*/
     margin-right: 12px;
     margin-left: 12px;
     margin-top: 2em;
@@ -64,8 +64,7 @@
 @media (min-width: 992px) { 
 
  .text_header{
-      font-size: 5em;
-      background-color: white;
+     /*background-color: white;*/
     position: relative;
     text-align: left;
     margin-right: 12px;
@@ -85,11 +84,13 @@
   }
   */
 
-/*.bg-quote-1 {
-  background: url() center center no-repeat;
-  background-attachment: fixed
+.bg-quote {
+  background: url(images/larry-huelga.jpg) center center no-repeat;
+  background-attachment: fixed;
+  width:920;
+  height:462;
 }
-*/
+
 
 
 
@@ -101,21 +102,18 @@
 
 
 /*----------------- part 2 -----------------*/
-.bg-header-2 {
-  background: url(images/vera-header-2.jpg) center center no-repeat;
-  background-attachment: fixed;
-  background-size:cover;
-}
 
-.bg-quote-2 {
-  background: url(images/larry-1.jpg) center center no-repeat;
+/*.bg-quote-2 {
+  background: url(images/vera-cruz-3.jpg) center center no-repeat;
   background-attachment: fixed;
 }
+*/
+
 
 
 
 /*----------------- part 3 -----------------*/
-.bg-header-3 {
+/*.bg-header-3 {
   background: url(images/vera-header-2.jpg) center center no-repeat;
   background-attachment: fixed;
   background-size:cover;
@@ -125,6 +123,7 @@
   background: url(images/larry-1.jpg) center center no-repeat;
   background-attachment: fixed;
 }
+*/
 
 
 /*------------------ part 4 ------------------*/
