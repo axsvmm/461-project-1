@@ -8,7 +8,7 @@
  * your project.
  */
 
- /*---------------  index  -----------------*/
+ /*-----------------   index  -----------------*/
 .bg-header {
   background: url(images/larry-andy.jpg) center center no-repeat;
   background-attachment: fixed;
@@ -76,7 +76,7 @@
 }
 
 
-/*----------------- part 1 -----------------*/
+/*-----------------   part 1 -----------------*/
 /*.bg-header-1 {
   background: url(images/larry-4.jpg) center center no-repeat;
   background-attachment: fixed;
@@ -91,17 +91,11 @@
   height:462;
 }
 
-
-
-
-
-
-
 .quote{ 
   border-left: 4px solid #000; }
 
 
-/*----------------- part 2 -----------------*/
+/*--------------------  part 2 -----------------*/
 
 /*.bg-quote-2 {
   background: url(images/vera-cruz-3.jpg) center center no-repeat;
@@ -111,8 +105,7 @@
 
 
 
-
-/*----------------- part 3 -----------------*/
+/*--------------------  part 3 -----------------*/
 /*.bg-header-3 {
   background: url(images/vera-header-2.jpg) center center no-repeat;
   background-attachment: fixed;
@@ -126,11 +119,44 @@
 */
 
 
-/*------------------ part 4 ------------------*/
+/*--------------------  part 4 -------------------*/
 
+/* -------------------- Footer ------------------ */
+footer {
+  text-align:center;
+  padding-bottom:3%;
 
+}
 
+#footerSocial {
+  margin:2% 5%;
+}
+.fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 50px;
+    text-decoration: none;
+    border-radius: 60%;
+}
 
+.fa:hoover {
+  opacity: 0.7%;
+}
+.fa-facebook {
+    background: #3D4852;
+    color: white;
+    
+}
+
+.fa-twitter {
+    background: #1C3D5A;
+    color: white;
+}
+
+.fa-instagram {
+  background: #382B5F;
+  color: white;
+}
 
 
 
