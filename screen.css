@@ -15,6 +15,66 @@
     background-size:cover;
 }
 
+.text_header{
+  font-family: Oswald;
+  font-size:3.5em;
+  opacity: .80;
+  color: #000 ;
+  text-shadow: 1.5px 1.5px #aaa6a6;
+  position: relative;
+  text-align: left;
+  line-height: 1.5;
+  padding: 10px;
+  margin-right: 12px;
+  margin-left: 15px;
+  margin-top: 2em;
+}
+
+
+@media (min-width: 564px) { 
+
+ .text_header{
+
+    font-size:4em;
+    position: relative;
+    text-align: justify-left;
+    line-height: 1.5;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-bottom: 2em;
+    margin-top:3em;
+    
+  }
+
+}
+
+@media (min-width: 768px) { 
+  
+  .text_header{
+    font-size:5em;
+    position: relative;
+    text-align: justify-center;
+     background-color: white;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 2em;
+    
+  }
+}
+@media (min-width: 992px) { 
+
+ .text_header{
+      font-size: 5em;
+      background-color: white;
+    position: relative;
+    text-align: left;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 2em; 
+
+  }
+
+}
 
 
 /*----------------- part 1 -----------------*/
@@ -28,18 +88,10 @@
 /*.bg-quote-1 {
   background: url() center center no-repeat;
   background-attachment: fixed
-
-
 }
 */
 
 
-#titleText {
-font-size: 55px;
-margin-right: 12px;
-margin-left: 12px;
-
-}
 
 
 
@@ -76,68 +128,6 @@ margin-left: 12px;
 
 
 /*------------------ part 4 ------------------*/
-
-.video-title {
-  background: #000;
-}
-
-/*@media only screen and (min-width : 768px) {
-  .video-wrapper {
-    height: 0;
-    padding-bottom: 56.25%;
-    position: relative;
-    width: 100%;
-  }
-
-  .video-wrapper video {
-    height: 100%;
-    position: absolute;
-      top: 0;
-      left: 0;
-    width: 100%;
-  }
-
-  .video-title {
-    background-color: rgba(0,0,0, .7);
-    position: absolute;
-      top: 32px;
-      left: 30%;
-    transform: translateX(-50%);
-    z-index: 99;
-  }
-}
-*/
-
-
-
-
-
-footer {
-  text-align:center;
-  padding-bottom:2%;
-
-}
-
-#footerSocial {
-  margin:1% 0;
-}
-.fa {
-    padding: 20px;
-    font-size: 15px;
-    width: 15px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-
-.fa:hoover {
-  opacity: 0.7%;
-}
-
-
-
-
-
 
 
 
