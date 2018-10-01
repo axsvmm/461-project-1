@@ -1,12 +1,4 @@
-/**
- * Custom CSS
- *
- * Add this to your Tailwind CSS file,
- * or to a separate, custom CSS file.
- *
- * Update the background images to suit
- * your project.
- */
+
 
  /*-----------------   index  -----------------*/
 .bg-header {
@@ -74,54 +66,6 @@
   }
 
 }
-
-
-/*-----------------   part 1 -----------------*/
-/*.bg-header-1 {
-  background: url(images/larry-4.jpg) center center no-repeat;
-  background-attachment: fixed;
-  background-size:cover;
-  }
-  */
-
-.bg-quote {
-  background: url(images/larry-huelga.jpg) center center no-repeat;
-  background-attachment: fixed;
-  width:920;
-  height:462;
-}
-
-.quote{ 
-  border-left: 4px solid #000; }
-
-
-/*--------------------  part 2 -----------------*/
-
-/*.bg-quote-2 {
-  background: url(images/vera-cruz-3.jpg) center center no-repeat;
-  background-attachment: fixed;
-}
-*/
-
-
-
-/*--------------------  part 3 -----------------*/
-/*.bg-header-3 {
-  background: url(images/vera-header-2.jpg) center center no-repeat;
-  background-attachment: fixed;
-  background-size:cover;
-}
-
-.bg-quote-3 {
-  background: url(images/larry-1.jpg) center center no-repeat;
-  background-attachment: fixed;
-}
-*/
-
-
-/*--------------------  part 4 -------------------*/
-
-
 
 .snip1584 {
   
@@ -222,6 +166,57 @@
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
+
+
+
+/*-----------------   part 1 -----------------*/
+/*.bg-header-1 {
+  background: url(images/larry-4.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  }
+  */
+
+.bg-quote {
+  background: url(images/larry-huelga.jpg) center center no-repeat;
+  background-attachment: fixed;
+  width:920;
+  height:462;
+}
+
+.quote{ 
+  border-left: 4px solid #000; }
+
+
+/*--------------------  part 2 -----------------*/
+
+/*.bg-quote-2 {
+  background: url(images/vera-cruz-3.jpg) center center no-repeat;
+  background-attachment: fixed;
+}
+*/
+
+
+
+/*--------------------  part 3 -----------------*/
+/*.bg-header-3 {
+  background: url(images/vera-header-2.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+.bg-quote-3 {
+  background: url(images/larry-1.jpg) center center no-repeat;
+  background-attachment: fixed;
+}
+*/
+
+
+
+/*--------------------  part 4 -------------------*/
+
+
+
 
 
 /* -------------------- Footer ------------------ */
